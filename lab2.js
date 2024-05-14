@@ -70,4 +70,3 @@ buttons.forEach(function(button) {
         }
     });
 });
-d
