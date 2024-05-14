@@ -1,0 +1,120 @@
+@media (max-width: 1200px) {
+    .wrapper {
+        width: 700px;
+    }
+
+    .border{
+        width: 100%;
+    }
+
+    .behind-end-block{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 130px;
+    }
+
+    .behind-end-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .img-end{
+        width: 45px;
+        height: 45px;
+    }
+
+    .behind-end .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    ul{
+        columns: 3;
+    }
+}
+
+@media (max-width: 900px) {
+    .wrapper {
+        width: 600px;
+    }
+    .under-head .text{
+        display: none;
+    }
+
+    .under-head .mobilText{
+        display: block;
+    }
+
+    .icon .text{
+        display: none;
+    }
+
+    .block-test{
+        display: grid;
+        height: 300px;
+    }
+
+    .date{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+}
+
+
+
+@media (max-width: 600px) {
+    .wrapper {
+        width: 450px;
+    }
+    .behind-end-block{
+        width: 70%;
+    }
+
+    .choose .block .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .choose .chos{
+        width: 90%;
+    }
+
+    .project .block .wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+
+    .project .block1{
+        width: 100%;
+        margin: 10px;
+    }
+    .project .block2{
+        width: 100%;
+        margin: 10px;
+    }
+    .project .block3{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .news .block .wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .block-news{
+        width: 90%;
+        margin: 5%;
+    }
+}
