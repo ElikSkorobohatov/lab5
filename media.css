@@ -1,7 +1,4 @@
 @media (max-width: 1200px) {
-    .wrapper {
-        width: 700px;
-    }
 
     .border{
         width: 100%;
@@ -39,9 +36,6 @@
 }
 
 @media (max-width: 900px) {
-    .wrapper {
-        width: 600px;
-    }
     .under-head .text{
         display: none;
     }
@@ -70,9 +64,6 @@
 
 
 @media (max-width: 600px) {
-    .wrapper {
-        width: 450px;
-    }
     .behind-end-block{
         width: 70%;
     }
@@ -95,16 +86,16 @@
 
 
     .project .block1{
-        width: 100%;
-        margin: 10px;
+        width: 80%;
+        margin: 10px 10%;
     }
     .project .block2{
-        width: 100%;
-        margin: 10px;
+        width: 80%;
+        margin: 10px 10%;
     }
     .project .block3{
-        width: 100%;
-        margin: 10px;
+        width: 80%;
+        margin: 10px 10%;
     }
 
     .news .block .wrapper{
@@ -116,5 +107,48 @@
     .block-news{
         width: 90%;
         margin: 5%;
+    }
+
+    .call .but{
+        width: 100%;
+    }
+
+    .behind-end-img{
+        display: none;
+    }
+
+    .text-end{
+        display: none;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .icon-end{
+        display: none;
+    }
+
+    .behind-end-block{
+        height: 30px;
+    }
+
+    .block-test{
+        height: 400px;
+    }
+
+    .welcom .wrapper{
+        max-height: 250px;
+        font-size: 12px;
+    }
+    .service .block .wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .block .serv{
+        width: 80%;
+        margin: 10px 10%;
     }
 }
